@@ -35,6 +35,36 @@ for ( var i = 0; i < listaCognomi.length; i++ ) {
 
 //scrivere posizione umana della lista in cui il nuovo utente si trova sia in for che while
 
+//posizione umana for
+
+//var numeroNuovoUtente = '';
+
+//for ( var i = 0; i < listaCognomi.length; i++ ) {
+
+    //if (listaCognomi[i] == cognomeUtente) {
+        //numeroNuovoUtente = i + 1;
+        //alert('la tua posizione in lista è la numero : ' + numeroNuovoUtente);
+    //}
+//}
+
+
+//posizione umana while
+
+var  numeroNuovoUtente = '';
+
+var i = 0;
+while ( i < listaCognomi.length ) {
+
+    if ( listaCognomi[i] == cognomeUtente ) {
+
+        numeroNuovoUtente = i + 1;
+        alert('la tua posizione in lista è la numero : ' + numeroNuovoUtente);
+    }
+
+    i++;
+}
+ 
+console.log(numeroNuovoUtente);
 
 
 
