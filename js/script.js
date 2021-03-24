@@ -26,14 +26,11 @@ console.log(listaCognomi);
 //stampo lista ordinata alfabeticamente
 
 for ( var i = 0; i < listaCognomi.length; i++ ) {
+    listaCognomi.sort();
 
    document.getElementById('surname-list').innerHTML += '<li>' + listaCognomi[i] + '</li>';
-
+ 
 }
-
-
-//stampo lista ordinata alfabeticamente
-
 
 
 //scrivere posizione umana della lista in cui il nuovo utente si trova sia in for che while
