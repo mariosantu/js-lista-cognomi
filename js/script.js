@@ -23,10 +23,12 @@ console.log(cognomeUtente);
 listaCognomi.push(cognomeUtente);
 console.log(listaCognomi);
 
+// ordino lista alfabeticamente
+listaCognomi.sort();
+
 //stampo lista ordinata alfabeticamente
 
 for ( var i = 0; i < listaCognomi.length; i++ ) {
-    listaCognomi.sort();
 
    document.getElementById('surname-list').innerHTML += '<li>' + listaCognomi[i] + '</li>';
  
